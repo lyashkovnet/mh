@@ -2,6 +2,8 @@
 # 123
 [Крутое ТЗ](https://github.com/lyashkovnet/mh/blob/master/%D0%A2%D0%97.pdf)
 
+[ТЗ на гугле](https://docs.google.com/document/d/1AVf2mXXvnHJSR95F0YeBfdtsDM-bogp6SC2eLTBWw8E/edit#)
+
 First Header | Second Header
 ------------ | -------------
 Content cell 1 | Content cell 2
