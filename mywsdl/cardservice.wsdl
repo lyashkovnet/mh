@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://new.webservice.namespace" name="SearchBankCardService" targetNamespace="http://new.webservice.namespace">
+	<wsdl:types>
+		<xs:schema>
+			<xs:import schemaLocation="infocard.xsd" namespace="http://new.webservice.namespace">
+            </xs:import>
+		</xs:schema>
+	</wsdl:types>
+	<wsdl:message name="SearchBankCardRequest">
+		<wsdl:part name="request" type="xs:string"/>
+	</wsdl:message>
+	<wsdl:message name="SearchBankCardResponse">
+		<wsdl:part name="response" type="xs:string"/>
+	</wsdl:message>
+	<wsdl:portType name="SearchBankCardPort">
+		<wsdl:operation name="SearchBankCard">
+			<wsdl:input message="tns:SearchBankCardRequest"/>
+			<wsdl:output message="tns:SearchBankCardResponse"/>
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="" type=""/>
+	<wsdl:service name=""/>
+</wsdl:definitions>
